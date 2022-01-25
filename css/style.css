@@ -1,0 +1,28 @@
+
+body{
+    display: grid;
+    grid-template-rows: auto auto auto;
+
+}
+.zehabeshalogo{
+    margin-right: 0.5em;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: revert;
+}
+footer{
+    color: aliceblue;
+}
+.containerFoot {
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 0 16px;
+}
+d-flex a{
+    color: #0dfd78;
+    text-decoration: underline;
+    text-decoration: none;
+}

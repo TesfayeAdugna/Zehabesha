@@ -10,22 +10,22 @@ main{
 }
 .cards {
     display: flex;
-    padding-left: 0;
+    padding-left: 0px;
     flex-wrap: wrap;
-    background: #879c8d1c;
-    border: 1px #6a5acd59;
+    background: rgb(221 240 226 / 11%);
+    border: 1px rgba(106, 90, 205, 0.35);
     justify-content: space-around;
 }
 .card-body{
     font-size: 12px;
 }
 .c {
-    width: 250px;
-    padding: 0px 12px;
+    width: 232px;
+    padding: 0px 15px;
     text-decoration: rgb(13, 253, 120);
-    margin: 28px 5px;
-    border: 19px #138b16;
-
+    margin: 28px 1px;
+    border: 19px rgb(19, 139, 22);
+    border-left: 1px solid #000400;
 }
 .c img{
     width: 170px;

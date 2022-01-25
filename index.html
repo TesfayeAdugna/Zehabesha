@@ -1,773 +1,486 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ZeHabesha Ethiopian News | Latest News for All</title>
-    <link rel="shortcut icon" type="image/jpg" href="images/favicon.png" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <div class="">
-      <header class="w-100" style="position: fixed">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-            <img
-              class="zehabeshalogo"
-              src="images/zehabesha logo.png"
-              alt="zehabesha's logo"
-            />
-            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                  <a
-                    class="navbar-brand dropdown-toggle"
-                    href="#"
-                    id="navbarDarkDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                    >Home</a
-                  >
-                  <ul
-                    class="dropdown-menu dropdown-menu-dark"
-                    aria-labelledby="navbarDarkDropdownMenuLink"
-                  >
-                    <li>
-                      <a class="dropdown-item" href="https://zehabesha.com/"
-                        >English News</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="https://amharic.zehabesha.com/"
-                        >Amharic News</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                  <a
-                    class="navbar-brand dropdown-toggle"
-                    href="https://zehabesha.com/news/"
-                    id="navbarDarkDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                    >News</a
-                  >
-                  <ul
-                    class="dropdown-menu dropdown-menu-dark"
-                    aria-labelledby="navbarDarkDropdownMenuLink"
-                  >
-                    <li><a class="dropdown-item" href="#">News video</a></li>
-                    <li><a class="dropdown-item" href="#">Press Release</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Community News</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Scholarly Articles</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <a
-              class="navbar-brand collapse navbar-collapse"
-              id="navbarNavDarkDropdown"
-              href="#"
-              >Human Rights</a
-            >
-            <a
-              class="navbar-brand collapse navbar-collapse"
-              id="navbarNavDarkDropdown"
-              href="#"
-              >Economy</a
-            >
-            <a
-              class="navbar-brand collapse navbar-collapse"
-              id="navbarNavDarkDropdown"
-              href="#"
-              >History</a
-            >
-            <a
-              class="navbar-brand collapse navbar-collapse"
-              id="navbarNavDarkDropdown"
-              href="#"
-              >Politics</a
-            >
-            <a
-              class="navbar-brand collapse navbar-collapse"
-              id="navbarNavDarkDropdown"
-              href="#"
-              >Health</a
-            >
-            <a
-              class="navbar-brand collapse navbar-collapse"
-              id="navbarNavDarkDropdown"
-              href="#"
-              >Sport</a
-            >
-            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDarkDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                    >More</a
-                  >
-                  <ul
-                    class="dropdown-menu dropdown-menu-dark"
-                    aria-labelledby="navbarDarkDropdownMenuLink"
-                  >
-                    <li>
-                      <a class="dropdown-item" href="#"
-                        >Science and Technology</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Art and culture</a>
-                    </li>
-                    <li><a class="dropdown-item" href="#">Famous People</a></li>
-                    <li><a class="dropdown-item" href="#">Biography</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Zehabesha Media</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Zehabesha Tube</a>
-                    </li>
-                    <li><a class="dropdown-item" href="#">Ethio Media</a></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#">About Us</a></li>
-                    <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Terms and Conditions</a>
-                    </li>
-                    <li><a class="dropdown-item" href="#">Privacy</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <form class="d-inline-flex p-2 bd-highlight">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
-            </div>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavDarkDropdown"
-              aria-controls="navbarNavDarkDropdown"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZeHabesha Ethiopian News | Latest News for All</title>
+  <link rel="shortcut icon" type="image/jpg" href="images/favicon.png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="">
+    <header class="w-100" style="position: fixed">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <img class="zehabeshalogo" src="images/zehabesha logo.png" alt="zehabesha's logo" />
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="navbar-brand dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="https://zehabesha.com/">English News</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://amharic.zehabesha.com/">Amharic News</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
-        </nav>
-        <div class="container">
-          <select class="form-select w-25" aria-label="Default select example">
-            <option selected>Archives 2005-2021</option>
-            <option value="1">December 2021</option>
-            <option value="2">October 2021</option>
-            <option value="3">November 2021</option>
-            <option value="1">December 2021</option>
-            <option value="2">October 2021</option>
-            <option value="3">November 2021</option>
-            <option value="1">December 2021</option>
-            <option value="2">October 2021</option>
-            <option value="3">November 2021</option>
-            <option value="1">December 2021</option>
-            <option value="2">October 2021</option>
-            <option value="3">November 2021</option>
-            <option value="1">December 2021</option>
-            <option value="2">October 2021</option>
-            <option value="3">November 2021</option>
-            <option value="1">December 2021</option>
-            <option value="2">October 2021</option>
-            <option value="3">November 2021</option>
-            <option value="1">December 2021</option>
-            <option value="2">October 2021</option>
-            <option value="3">November 2021</option>
-            <option value="1">December 2021</option>
-            <option value="2">October 2021</option>
-            <option value="3">November 2021</option>
-          </select>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="navbar-brand dropdown-toggle" href="https://zehabesha.com/news/"
+                  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">News</a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">News video</a></li>
+                  <li><a class="dropdown-item" href="#">Press Release</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Community News</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Scholarly Articles</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <a class="navbar-brand collapse navbar-collapse" id="navbarNavDarkDropdown" href="#">Human Rights</a>
+          <a class="navbar-brand collapse navbar-collapse" id="navbarNavDarkDropdown" href="#">Economy</a>
+          <a class="navbar-brand collapse navbar-collapse" id="navbarNavDarkDropdown" href="#">History</a>
+          <a class="navbar-brand collapse navbar-collapse" id="navbarNavDarkDropdown" href="#">Politics</a>
+          <a class="navbar-brand collapse navbar-collapse" id="navbarNavDarkDropdown" href="#">Health</a>
+          <a class="navbar-brand collapse navbar-collapse" id="navbarNavDarkDropdown" href="#">Sport</a>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="#">Science and Technology</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Art and culture</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Famous People</a></li>
+                  <li><a class="dropdown-item" href="#">Biography</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Zehabesha Media</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Zehabesha Tube</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Ethio Media</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Terms and Conditions</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Privacy</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <form class="d-inline-flex p-2 bd-highlight">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
+            aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-      </header>
-    </div>
-    <div class="">
-      <main class="container" style="padding-top: 7em">
-        <div class="">
-          <section class="float-start w-75">
-            <div class="container" style="padding: 5em">
-              <img
-                src="images/news.webp"
-                class="card-img-top"
-                alt="todays news"
-              />
-              <div class="card-body">
-                <a
-                  class="nav-link"
-                  href="https://zehabesha.com/burkina-faso-army-says-it-has-deposed-president-kabore/"
-                  ><h1 class="card-title">
-                    Burkina Faso army says it has deposed President Kabore
-                  </h1></a
-                >
-                <p class="card-text">
-                  By Thiam Ndiaga OUAGADOUGOU (Reuters) – Burkina Faso’s army
-                  said on Monday it had ousted President Roch Kabore, suspended
-                  the constitution, dissolved the government and the national
-                  assembly and closed the country’s borders. The announcement
-                  cited the deterioration of the…
-                </p>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
-              </div>
-            </div>
-          </section>
-          <aside class="float-end w-25" style="margin-left: -10em">
-            <img
-              src="images/news2.jpg"
-              class="card-img-top"
-              alt="todays news"
-            />
+      </nav>
+      <div class="container">
+        <select class="form-select w-25" aria-label="Default select example">
+          <option selected>Archives 2005-2021</option>
+          <option value="1">December 2021</option>
+          <option value="2">October 2021</option>
+          <option value="3">November 2021</option>
+          <option value="1">December 2021</option>
+          <option value="2">October 2021</option>
+          <option value="3">November 2021</option>
+          <option value="1">December 2021</option>
+          <option value="2">October 2021</option>
+          <option value="3">November 2021</option>
+          <option value="1">December 2021</option>
+          <option value="2">October 2021</option>
+          <option value="3">November 2021</option>
+          <option value="1">December 2021</option>
+          <option value="2">October 2021</option>
+          <option value="3">November 2021</option>
+          <option value="1">December 2021</option>
+          <option value="2">October 2021</option>
+          <option value="3">November 2021</option>
+          <option value="1">December 2021</option>
+          <option value="2">October 2021</option>
+          <option value="3">November 2021</option>
+          <option value="1">December 2021</option>
+          <option value="2">October 2021</option>
+          <option value="3">November 2021</option>
+        </select>
+      </div>
+    </header>
+  </div>
+  <div class="">
+    <main class="container" style="padding-top: 7em">
+      <div class="">
+        <section class="float-start w-75">
+          <div class="container" style="padding: 5em">
+            <img src="images/news.webp" class="card-img-top" alt="todays news" />
             <div class="card-body">
-              <a
-                class="nav-link"
-                href="https://zehabesha.com/burkina-faso-army-says-it-has-deposed-president-kabore/"
-                ><h5 class="card-title">
-                  Ethiopian Inflation Tops 35% in December as Food Costs Surge
-                </h5></a
-              >
+              <a class="nav-link" href="https://zehabesha.com/burkina-faso-army-says-it-has-deposed-president-kabore/">
+                <h1 class="card-title">
+                  Burkina Faso army says it has deposed President Kabore
+                </h1>
+              </a>
               <p class="card-text">
-                David Malingha, Bloomberg News Ethiopia inflation accelerated to
-                the highest level in almost a decade in December as the cost of
-                food surged amid a civil war in the Horn…
+                By Thiam Ndiaga OUAGADOUGOU (Reuters) – Burkina Faso’s army
+                said on Monday it had ousted President Roch Kabore, suspended
+                the constitution, dissolved the government and the national
+                assembly and closed the country’s borders. The announcement
+                cited the deterioration of the…
               </p>
               <p class="card-text">
-                <small class="text-muted">JANUARY 24, 2022</small>
+                <small class="text-muted">Last updated 3 mins ago</small>
               </p>
             </div>
-            <img
-              src="images/news3.jpg"
-              class="card-img-top"
-              alt="todays news"
-            />
-            <div class="card-body">
-              <a
-                class="nav-link"
-                href="https://zehabesha.com/burkina-faso-army-says-it-has-deposed-president-kabore/"
-                ><h5 class="card-title">
-                  The TPLF Terrorist chief warns against talk of ‘endgame’ in
-                  pandemic
-                </h5></a
-              >
-              <p class="card-text">
-                The World Health Organization’s director-general on Monday
-                warned that conditions remain ideal for more coronavirus
-                variants to emerge and it’s dangerous to assume omicron…
-              </p>
-            </div>
-          </aside>
-        </div>
-        <hr>
-        <div class="cards">
-          <div class="c" >
-            <img
-              src="images/c1.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Ethiopian army planning to ‘eliminate’ Tigrayan Terrorist forces
-                -military official
-              </p>
-              <h6 class="card-title">NEWS</h6>
-
-              <a href="#" class="text-info"
-                >(Reuters) – Ethiopia’s military is planning to enter the Tigray
-                regional capital…</a
-              >
-            </div>
           </div>
-          <div class="c" >
-            <img
-              src="images/c2.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                NEWS (Reuters) – Ethiopia’s military is planning to enter the
-                Tigray regional capital… Concerned Ethiopia Statement on The
-                Ethiopian National Dialogue
-              </p>
-              <h6 class="card-title">NEWS</h6>
-
-              <a href="#" class="text-info">Concerned Ethiopia Statement on The Ethiopian National Dialogue During the last five…</a>
-            </div>
+        </section>
+        <aside class="float-end w-25" style="margin-left: -10em">
+          <img src="images/news2.jpg" class="card-img-top" alt="todays news" />
+          <div class="card-body">
+            <a class="nav-link" href="https://zehabesha.com/burkina-faso-army-says-it-has-deposed-president-kabore/">
+              <h5 class="card-title">
+                Ethiopian Inflation Tops 35% in December as Food Costs Surge
+              </h5>
+            </a>
+            <p class="card-text">
+              David Malingha, Bloomberg News Ethiopia inflation accelerated to the highest level in almost a decade in
+              December as the cost of
+              food surged amid a civil war in the Horn…
+            </p>
+            <p class="card-text">
+              <small class="text-muted">JANUARY 24, 2022</small>
+            </p>
           </div>
-          <div class="c" >
-            <img
-              src="images/c3.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div  class="card-body">
-              <p class="card-text">
-                The Monarchy: An Institution That Can Unite All Ethiopians Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              </p>
-              <h6 class="card-title">SCHOLARLY ARTICLES</h6>
-
-              <a href="#" class="text-info">Gizachew Tiruneh, Ph. D. January 22, 2022 After a year-long civil war…</a>
-            </div>
+          <img src="images/news3.jpg" class="card-img-top" alt="todays news" />
+          <div class="card-body">
+            <a class="nav-link" href="https://zehabesha.com/burkina-faso-army-says-it-has-deposed-president-kabore/">
+              <h5 class="card-title">
+                The TPLF Terrorist chief warns against talk of ‘endgame’ in
+                pandemic
+              </h5>
+            </a>
+            <p class="card-text">
+              The World Health Organization’s director-general on Monday warned that conditions remain ideal for more
+              coronavirus
+              variants to emerge and it’s dangerous to assume omicron…
+            </p>
           </div>
-          <div class="c" >
-            <img
-              src="images/c4.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Oromia Police shot dead two, injure several others at Timket festival over flag controversy
-              </p>
-              <h6 class="card-title">NEWS</h6>
+        </aside>
+      </div>
+      <hr>
+      <div class="cards">
+        <div class="c">
+          <img src="images/c1.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Ethiopian army planning to ‘eliminate’ Tigrayan Terrorist forces
+              -military official
+            </p>
+            <h6 class="card-title">NEWS</h6>
 
-              <a href="#" class="text-info">Two people were killed and several others were injured in a stand-off…</a>
-            </div>
-          </div>
-
-
-          <div class="c" >
-            <img
-              src="images/c5.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                The #NoMore Movement Is Revolutionizing The Global Activist Community
-              </p>
-              <h6 class="card-title">NEWS</h6>
-
-              <a href="#" class="text-info"
-                >By Andrew Korybko —  American political analyst The US-led West’s Hybrid War on…</a
-              >
-            </div>
-          </div>
-          <div class="c" >
-            <img
-              src="images/c6.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Timket: A Sign of Unity, Cultural Diversity and Benediction
-              </p>
-              <h6 class="card-title">NEWS</h6>
-
-              <a href="#" class="text-info">BY SOLOMON DIBABA Timket, meaning baptism is a UNESCO inscribed religious festival…</a>
-            </div>
-          </div>
-          <div class="c" >
-            <img
-              src="images/c7.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div  class="card-body">
-              <p class="card-text">
-                “World Health Organization (WHO) Leadership in Peril”?              </p>
-              <h6 class="card-title">NEWS/WORLD NEWS</h6>
-
-              <a href="#" class="text-info">“World Health Organization (WHO) Leadership in Peril”?…</a>
-            </div>
-          </div>
-          <div class="c" >
-            <img
-              src="images/c8.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Oromia Police shot dead two, injure several others at Timket festival over flag controversy
-              </p>
-              <h6 class="card-title">NEWS</h6>
-
-              <a href="#" class="text-info">Two people were killed and several others were injured in a stand-off…</a>
-            </div>
-          </div>
-
-
-
-          
-          <div class="c" >
-            <img
-              src="images/c9.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Turkish embassy in Ethiopia moved to Kenya due to threats over drone sales              </p>
-              <h6 class="card-title">NEWS</h6>
-
-              <a href="#" class="text-info"
-                >Turkey’s embassy in the Ethiopian capital of Addis Ababa has been moved…</a
-              >
-            </div>
-          </div>
-          <div class="c" >
-            <img
-              src="images/c10.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Burkina Faso/Ethiopia: Burkina Faso to Round of 16 Despite Draw With Ethiopia              </p>
-              <h6 class="card-title">SPORT</h6>
-
-              <a href="#" class="text-info"> CAF. Burkina Faso have qualified to the knockout phase of the TotalEnergies…</a>
-            </div>
-          </div>
-          <div class="c" >
-            <img
-              src="images/c11.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div  class="card-body">
-              <p class="card-text">
-                Gov’t ‘organizes, not disarm’ Fano members who fought for survival of country: Amhara state              
-                <h6 class="card-title">NEWS/MILITARY</h6>
-
-              <a href="#" class="text-info">Armed members of Fano. PictureL Fano Amhara  Addis Abeba: Amhara State Government…</a>
-            </div>
-          </div>
-          <div class="c" >
-            <img
-              src="images/c12.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Meaza Mohammed released from detention              </p>
-              <h6 class="card-title">NEWS</h6>
-
-              <a href="#" class="text-info">Journalist Meaza, the co-founder of online media outlet, Roha Media, who previously…</a>
-            </div>
-          </div>
-
-
-
-          
-          
-          <div class="c" >
-            <img
-              src="images/c13.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Remembering and Honoring the Legacy of Dr. Martin Luther King, Jr.              
-                <h6 class="card-title">NEWS</h6>
-
-              <a href="#" class="text-info"
-                >by Ernest L. Stevens, Jr. Chairman Today, the National Indian Gaming Association…</a
-              >
-            </div>
-          </div>
-          <div class="c" >
-            <img
-              src="images/c14.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Abiy Ahmed: the OLF-TPLF combo best for the West             
-                 <h6 class="card-title">ANALYSIS & OPINION</h6>
-
-              <a href="#" class="text-info"> By implicating Amhara forces of war crimes they cannot possibly commit, the…</a>
-            </div>
-          </div>
-          <div class="c" >
-            <img
-              src="images/c15.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div  class="card-body">
-              <p class="card-text">
-                The Case Against WHO’s Director-General, Dr. Tedros Adhanom               
-                 <h6 class="card-title">ANALYSIS & OPINION</h6>
-
-              <a href="#" class="text-info">January 20, 2022 To: WHO Office of Compliance, Risk Management and Ethics…</a>
-            </div>
-          </div>
-          <div class="c" >
-            <img
-              src="images/c16.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Dreams of an Ethiopia in Peace and Her Enemies in Pieces (Part I)
-                              <h6 class="card-title">NEWS</h6>
-
-              <a href="#" class="text-info">Al Mariam’s Commentaries Today, the struggle is between those who want to…utlet, Roha Media, who previously…</a>
-            </div>
-          </div>
-
-
-
-          
-          <div class="c" >
-            <img
-              src="images/c9.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                As We Celebrate the Holidays, Let Us Not Forget the Denial of Justice
-                              <h6 class="card-title">ANALYSIS & OPINION</h6>
-
-              <a href="#" class="text-info"
-                >“No Justice! No Peace!” Is Not just a Slogan: It Is Real…</a
-              >
-            </div>
-          </div>
-          <div class="c" >
-            <img
-              src="images/c18.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Despite High Stakes in Ethiopia, China Sits on the Sidelines of Peace Efforts
-                              <h6 class="card-title">NEWS</h6>
-
-              <a href="#" class="text-info">Since November of 2020, Ethiopia has been suffering from a deadly internal…</a>
-            </div>
-          </div>
-          <div class="c" >
-            <img
-              src="images/c19.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div  class="card-body">
-              <p class="card-text">
-                Does Ethiopia Possess Intellectuals and Scholars Willing to Tackle its Legendary Institutional and Structural Traps?      
-                          <h6 class="card-title">NEWS/MILITARY</h6>
-
-              <a href="#" class="text-info">Aklog Birara (Dr) Part I of III Parts I urge the reader…</a>
-            </div>
-          </div>
-          <div class="c" >
-            <img
-              src="images/c20.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                False banana: Is Ethiopia’s enset ‘wondercrop’ for climate change?
-                <h6 class="card-title">NEWS/SCIENCE & TECHNOLOGY</h6>
-
-              <a href="#" class="text-info">By Helen Briggs Science correspondent Scientists say the plant enset, an Ethiopian…</a>
-            </div>
-          </div>
-
-
-
-          
-          
-          <div class="c" >
-            <img
-              src="images/c21.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Ethiopian Great Run in Green, Yellow, and Red Sporting Jerseys
-                                <h6 class="card-title">NEWS/SPORT</h6>
-
-              <a href="#" class="text-info"
-                >Alex Isaboke The elusive Great Ethiopian Run title is still a dream for Kenyans after once again missing to make the podium in the…</a
-              >
-            </div>
-          </div>
-          <div class="c" >
-            <img
-              src="images/c22.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                n Provides New Humanitarian Assistance Package worth 14 Mil USD to Ethiopia               
-                  <h6 class="card-title">NEWS</h6>
-
-              <a href="#" class="text-info"> The Government of Japan will provide a new humanitarian assistance package worth about 14 million USD to Ethiopia through its partnerships with various international…ossibly commit, the…</a>
-            </div>
-          </div>
-          <div class="c" >
-            <img
-              src="images/c23.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div  class="card-body">
-              <p class="card-text">
-                Health Care and Restorative Justice
-                                 <h6 class="card-title">HEALTH</h6>
-
-              <a href="#" class="text-info">By Zergabachew Asfaw M.D, FACP On January 7, 2022, Ethiopian Christmas holiday,…s…</a>
-            </div>
-          </div>
-          <div class="c" >
-            <img
-              src="images/c24.jpeg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                The strategic use of victimized narratives to reinstate an autocratic regime in Ethiopia
-                                              <h6 class="card-title">JANUARY 14, 2022ANALYSIS & OPINION</h6>
-
-              <a href="#" class="text-info">Contact i have struggled to…</a>
-            </div>
-          </div>
-
-
-          <div class="c" >
-            <img
-              src="images/c25.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <p class="card-text">
-                The US risks losing its influence in the Horn of Africa. Here’s how to get it back.
-                                                              <h6 class="card-title">JANUARY 14, 2022ANALYSIS & OPINION</h6>
-
-              <a href="#" class="text-info">The USduction I must have struggled to…</a>
-            </div>
+            <a href="#" class="text-info">(Reuters) – Ethiopia’s military is planning to enter the Tigray
+              regional capital…</a>
           </div>
         </div>
-      </main>
-    </div>
-    <div class="">
-      <footer class="bg-dark text-white pt-sm-3 pb-2">
-        <div class="containerFoot">
-          <div class="up">
-            <h1>Explor Zehabesha</h1>
-            <br />
-            <div class="d-flex justify-content-between btn-sm" id="lf">
-              <div class="box p-2">
-                <div class="d-flex flex-column" id="lft">
-                  <a href="#" style="text-decoration: none">Home</a>
-                  <a href="#" style="text-decoration: none">FUTURE</a>
-                </div>
-              </div>
-              <div class="box p-2">
-                <div class="d-flex flex-column" id="lft">
-                  <a href="#" style="text-decoration: none">NEWS</a>
-                  <a href="#" style="text-decoration: none">CULTURE</a>
-                </div>
-              </div>
-
-              <div class="box p-2">
-                <div class="d-flex flex-column" id="lft">
-                  <a href="#" style="text-decoration: none">SPORT</a>
-                  <a href="#" style="text-decoration: none">MUSIC</a>
-                </div>
-              </div>
-              <div class="box p-2">
-                <div class="d-flex flex-column m-auto" id="lft">
-                  <a href="#" style="text-decoration: none">FLLT</a>
-                  <a href="#" style="text-decoration: none">TV</a>
-                </div>
-              </div>
-
-              <div class="box p-2">
-                <div class="d-flex flex-column m-auto" id="lft">
-                  <a href="#" style="text-decoration: none">WORLDWIDE</a>
-                  <a href="#" style="text-decoration: none">WEATHER</a>
-                </div>
-              </div>
-              <div class="box p-2">
-                <div class="d-flex flex-column m-auto" id="lft">
-                  <a href="#" style="text-decoration: none">TRAVEL</a>
-                  <a href="#" style="text-decoration: none">SOUND</a>
-                </div>
-              </div>
-            </div>
-
-            <hr />
-          </div>
-
-          <div class="rounded mx-auto d-block">
-            <div class="logo">
-              <img src="../images/footer image.png" alt="" />
-              <p class="copyright">
-                &copy 2005-2021 All Rights Reserved. <br />
-                Zehabesha Media :Tana <br />Developments LLC All Rights Reserved
-              </p>
-            </div>
+        <div class="c">
+          <img src="images/c2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              NEWS (Reuters) – Ethiopia’s military is planning to enter the
+              Tigray regional capital… Concerned Ethiopia Statement on The
+              Ethiopian National Dialogue
+            </p>
+            <h6 class="card-title">NEWS</h6>
+            <a href="#" class="text-info">Concerned Ethiopia Statement on The Ethiopian National Dialogue During the
+              last five…</a>
           </div>
         </div>
-      </footer>
-    </div>
 
-    <!-- JavaScript Bundle with Popper -->
-    <!-- <script src="js/bootstrap.bundle.min.js" ></script> -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        <div class="c">
+          <img src="images/c3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">The Monarchy: An Institution That Can Unite All Ethiopians Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+            <h6 class="card-title">SCHOLARLY ARTICLES</h6>
+            <a href="#" class="text-info">Gizachew Tiruneh, Ph. D. January 22, 2022 After a year-long civil war…</a>
+          </div>
+        </div>
+
+        <div class="c">
+          <img src="images/c4.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Oromia Police shot dead two, injure several others at Timket festival over flag controversy</p>
+            <h6 class="card-title">NEWS</h6>
+            <a href="#" class="text-info">Two people were killed and several others were injured in a stand-off…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c5.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">The #NoMore Movement Is Revolutionizing The Global Activist Community</p>
+            <h6 class="card-title">NEWS</h6>
+            <a href="#" class="text-info">By Andrew Korybko — American political analyst The US-led West’s Hybrid War  on…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c6.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Timket: A Sign of Unity, Cultural Diversity and Benediction</p>
+            <h6 class="card-title">NEWS</h6>
+            <a href="#" class="text-info">BY SOLOMON DIBABA Timket, meaning baptism is a UNESCO inscribed religious festival…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c7.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">“World Health Organization (WHO) Leadership in Peril”? </p>
+            <h6 class="card-title">NEWS/WORLD NEWS</h6>
+            <a href="#" class="text-info">“World Health Organization (WHO) Leadership in Peril”?…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c8.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Oromia Police shot dead two, injure several others at Timket festival over flag controversy </p>
+            <h6 class="card-title">NEWS</h6>
+            <a href="#" class="text-info">Two people were killed and several others were injured in a stand-off…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c9.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Turkish embassy in Ethiopia moved to Kenya due to threats over drone sales </p>
+            <h6 class="card-title">NEWS</h6>
+            <a href="#" class="text-info">Turkey’s embassy in the Ethiopian capital of Addis Ababa has been moved…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c10.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Burkina Faso/Ethiopia: Burkina Faso to Round of 16 Despite Draw With Ethiopia </p>
+            <h6 class="card-title">SPORT</h6>
+            <a href="#" class="text-info"> CAF. Burkina Faso have qualified to the knockout phase of the TotalEnergies…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c11.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Gov’t ‘organizes, not disarm’ Fano members who fought for survival of country: Amhara state</p>
+            <h6 class="card-title">NEWS/MILITARY</h6>
+            <a href="#" class="text-info">Armed members of Fano. PictureL Fano Amhara Addis Abeba: Amhara State Government…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c12.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Meaza Mohammed released from detention </p>
+            <h6 class="card-title">NEWS</h6>
+            <a href="#" class="text-info">Journalist Meaza, the co-founder of online media outlet, Roha Media, who   previously…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c13.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Remembering and Honoring the Legacy of Dr. Martin Luther King, Jr.</p>
+            <h6 class="card-title">NEWS</h6>
+            <a href="#" class="text-info">by Ernest L. Stevens, Jr. Chairman Today, the National Indian Gaming      Association…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c14.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Abiy Ahmed: the OLF-TPLF combo best for the West</p>
+            <h6 class="card-title">ANALYSIS & OPINION</h6>
+            <a href="#" class="text-info"> By implicating Amhara forces of war crimes they cannot possibly commit,    the…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c15.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">The Case Against WHO’s Director-General, Dr. Tedros Adhanom</p>
+            <h6 class="card-title">ANALYSIS & OPINION</h6>
+            <a href="#" class="text-info">January 20, 2022 To: WHO Office of Compliance, Risk Management and Ethics…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c16.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Dreams of an Ethiopia in Peace and Her Enemies in Pieces (Part I)</p>
+            <h6 class="card-title">NEWS</h6>
+            <a href="#" class="text-info">Al Mariam’s Commentaries Today, the struggle is between those who want  to…utlet, Roha Media, who previously…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c9.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">As We Celebrate the Holidays, Let Us Not Forget the Denial of Justice</p>
+            <h6 class="card-title">ANALYSIS & OPINION</h6>
+            <a href="#" class="text-info">“No Justice! No Peace!” Is Not just a Slogan: It Is Real…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c18.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Despite High Stakes in Ethiopia, China Sits on the Sidelines of Peace Efforts</p>
+            <h6 class="card-title">NEWS</h6>
+            <a href="#" class="text-info">Since November of 2020, Ethiopia has been suffering from a deadly             internal…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c19.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text"> Does Ethiopia Possess Intellectuals and Scholars Willing to Tackle its Legendary Institutional and Structural Traps?
+            <h6 class="card-title">NEWS/MILITARY</h6>
+            <a href="#" class="text-info">Aklog Birara (Dr) Part I of III Parts I urge the reader…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c20.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">False banana: Is Ethiopia’s enset ‘wondercrop’ for climate change?</p>
+            <h6 class="card-title">NEWS/SCIENCE & TECHNOLOGY</h6>
+            <a href="#" class="text-info">By Helen Briggs Science correspondent Scientists say the plant enset, an Ethiopian…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c21.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Ethiopian Great Run in Green, Yellow, and Red Sporting Jerseys
+            <h6 class="card-title">NEWS/SPORT</h6>
+            <a href="#" class="text-info">Alex Isaboke The elusive Great Ethiopian Run title is still a dreyans after once again missing to make the podium in the…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c22.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Provides New Humanitarian Assistance Package worth 14 Mil USD to Ethiopia</p>
+            <h6 class="card-title">NEWS</h6>
+            <a href="#" class="text-info"> The Government of Japan will provide a new humanitarous international…ossibly commit,the…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c23.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Health Care and Restorative Justice
+            <h6 class="card-title">HEALTH</h6>
+            <a href="#" class="text-info">By Zergabachew Asfaw M.D, FACP On January 7, 2022, Ethiopian Christmas holiday,…s…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c24.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              The strategic use of victimized narratives to reinstate an autocratic regime in Ethiopia
+            <h6 class="card-title">JANUARY 14, 2022ANALYSIS & OPINION</h6>
+            <a href="#" class="text-info">Contact i have struggled to…</a>
+          </div>
+        </div>
+        <div class="c">
+          <img src="images/c25.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">The US risks losing its influence in the Horn of Africa. Here’s how to get it back.</p>
+            <h6 class="card-title">JANUARY 14, 2022ANALYSIS & OPINION</h6>
+            <a href="#" class="text-info">The USduction I must have struggled to…</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <div class="">
+    <footer class="bg-dark text-white pt-sm-3 pb-2">
+      <div class="containerFoot">
+        <div class="up">
+          <h1>Explor Zehabesha</h1>
+          <br />
+          <div class="d-flex justify-content-between btn-sm" id="lf">
+            <div class="box p-2">
+              <div class="d-flex flex-column" id="lft">
+                <a href="#" style="text-decoration: none">Home</a>
+                <a href="#" style="text-decoration: none">FUTURE</a>
+              </div>
+            </div>
+            <div class="box p-2">
+              <div class="d-flex flex-column" id="lft">
+                <a href="#" style="text-decoration: none">NEWS</a>
+                <a href="#" style="text-decoration: none">CULTURE</a>
+              </div>
+            </div>
+            <div class="box p-2">
+              <div class="d-flex flex-column" id="lft">
+                <a href="#" style="text-decoration: none">SPORT</a>
+                <a href="#" style="text-decoration: none">MUSIC</a>
+              </div>
+            </div>
+            <div class="box p-2">
+              <div class="d-flex flex-column m-auto" id="lft">
+                <a href="#" style="text-decoration: none">FLLT</a>
+                <a href="#" style="text-decoration: none">TV</a>
+              </div>
+            </div>
+            <div class="box p-2">
+              <div class="d-flex flex-column m-auto" id="lft">
+                <a href="#" style="text-decoration: none">WORLDWIDE</a>
+                <a href="#" style="text-decoration: none">WEATHER</a>
+              </div>
+            </div>
+            <div class="box p-2">
+              <div class="d-flex flex-column m-auto" id="lft">
+                <a href="#" style="text-decoration: none">TRAVEL</a>
+                <a href="#" style="text-decoration: none">SOUND</a>
+              </div>
+            </div>
+          </div>
+          <hr />
+        </div>
+        <div class="rounded mx-auto d-block">
+          <div class="logo">
+            <img src="../images/footer image.png" alt="" />
+            <p class="copyright">
+              &copy 2005-2021 All Rights Reserved. <br />
+              Zehabesha Media :Tana <br />Developments LLC All Rights Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- JavaScript Bundle with Popper -->
+  <!-- <script src="js/bootstrap.bundle.min.js" ></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

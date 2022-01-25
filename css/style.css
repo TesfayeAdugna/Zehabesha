@@ -12,20 +12,22 @@ main{
     display: flex;
     padding-left: 0;
     flex-wrap: wrap;
-    background: #3d61481c;
+    background: #879c8d1c;
     border: 1px #6a5acd59;
+    justify-content: space-around;
 }
 .card-body{
-    font-size: 10px;
+    font-size: 12px;
 }
 .c {
-    width: 175px;
-    padding: 0px 5px;
+    width: 250px;
+    padding: 0px 12px;
     text-decoration: rgb(13, 253, 120);
     margin: 28px 5px;
     border: 19px #138b16;
+
 }
-.c image{
+.c img{
     width: 170px;
     height: 140px;
 }

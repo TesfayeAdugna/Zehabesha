@@ -4,9 +4,37 @@ body{
     grid-template-rows: auto auto auto;
 
 }
+main{
+    display: flex;
+    flex-direction: column;
+}
+.cards {
+    display: flex;
+    padding-left: 0;
+    flex-wrap: wrap;
+    background: #3d61481c;
+    border: 1px #6a5acd59;
+}
+.card-body{
+    font-size: 10px;
+}
+.c {
+    width: 175px;
+    padding: 0px 5px;
+    text-decoration: rgb(13, 253, 120);
+    margin: 28px 5px;
+    border: 19px #138b16;
+}
+.c image{
+    width: 170px;
+    height: 140px;
+}
+
+
 .zehabeshalogo{
     margin-right: 0.5em;
 }
+
 
 p {
     margin-top: 0;

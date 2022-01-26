@@ -22,11 +22,11 @@ main{
     padding: 0px 15px;
     text-decoration: none;
     margin: 28px 1px;
-    border: 19px rgba(0, 5, 1, 0.411);
+    border-left: 1.2px solid rgba(0, 5, 1, 0.411);
 }
 .c img{
-    width: 230px;
-    height: 250px;
+    width: 170px;
+    height: 140px;
 }
 .c a{
     text-decoration: none;

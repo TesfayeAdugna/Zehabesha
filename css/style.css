@@ -22,16 +22,18 @@ main{
 .c {
     width: 232px;
     padding: 0px 15px;
-    text-decoration: rgb(13, 253, 120);
+text-decoration: none;
     margin: 28px 1px;
-    border: 19px rgb(19, 139, 22);
+    border: 19px rgba(0, 5, 1, 0.411);
     border-left: 1px solid #000400;
 }
 .c img{
     width: 170px;
     height: 140px;
 }
-
+.c a{
+    text-decoration: none;
+}
 
 .zehabeshalogo{
     margin-right: 0.5em;
@@ -51,8 +53,58 @@ footer{
     grid-template-rows: auto auto;
     padding: 0 16px;
 }
-d-flex a{
-    color: #0dfd78;
+a {
+    color: #ffffff;
     text-decoration: underline;
+    font-family: sans-serif;
+}
+.logo img {
+    height: 75px;
+    padding: 0 0 0 17px;
+}
+.d {
+    max-width: 568px;
+    padding: 25px 27px;
+}
+.onpini0ndanalysis {
+    padding: 117px 14px;
+}
+.openionbody{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 0 0;
+}
+.right-op {
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 5px solid gray;
+}
+.text{
+    margin-left: 30%;
+}
+element.style {
+    height: 7px;
+    color: #e92e04a3;
+}
+.sh {
+    padding: 80px 63px;
+}
+.scholar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c1 {
+    width: 232px;
+    padding: 0px 15px;
+    margin: 28px 1px;
+}
+.c1 img{
+    width: 170px;
+    height: 140px;
+}
+.c1 a{
+    color: rebeccapurple;
     text-decoration: none;
+color: rgba(1, 27, 18, 0.418);
 }

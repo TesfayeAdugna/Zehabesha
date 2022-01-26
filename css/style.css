@@ -2,7 +2,6 @@
 body{
     display: grid;
     grid-template-rows: auto auto auto;
-
 }
 main{
     display: flex;
@@ -12,7 +11,6 @@ main{
     display: flex;
     padding-left: 0px;
     flex-wrap: wrap;
-    background: rgb(221 240 226 / 11%);
     border: 1px rgba(106, 90, 205, 0.35);
     justify-content: space-around;
 }
@@ -22,14 +20,13 @@ main{
 .c {
     width: 232px;
     padding: 0px 15px;
-text-decoration: none;
+    text-decoration: none;
     margin: 28px 1px;
     border: 19px rgba(0, 5, 1, 0.411);
-    border-left: 1px solid #000400;
 }
 .c img{
-    width: 170px;
-    height: 140px;
+    width: 230px;
+    height: 250px;
 }
 .c a{
     text-decoration: none;
@@ -77,7 +74,7 @@ a {
 .right-op {
     display: flex;
     flex-wrap: wrap;
-    border-left: 5px solid gray;
+    border-left: 1px solid #a8a7a7;
 }
 .text{
     margin-left: 30%;

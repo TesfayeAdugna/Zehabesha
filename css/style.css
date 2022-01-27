@@ -25,18 +25,15 @@ main{
     border-left: 1.2px solid rgba(0, 5, 1, 0.411);
 }
 .c img{
-    width: 170px;
-    height: 140px;
+    width: 230px;
+    height: 200px;
 }
 .c a{
     text-decoration: none;
 }
-
 .zehabeshalogo{
     margin-right: 0.5em;
 }
-
-
 p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -75,6 +72,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     border-left: 1px solid #a8a7a7;
+    padding-left: 1em;
 }
 .text{
     margin-left: 30%;
@@ -83,22 +81,17 @@ element.style {
     height: 7px;
     color: #e92e04a3;
 }
-.sh {
-    padding: 80px 63px;
-}
 .scholar{
     display: flex;
     flex-wrap: wrap;
 }
-
 .c1 {
-    width: 232px;
-    padding: 0px 15px;
-    margin: 28px 1px;
+    width: 25%;
+    padding: 1em;
 }
 .c1 img{
-    width: 170px;
-    height: 140px;
+    width: 230px;
+    height: 200px;
 }
 .c1 a{
     color: rebeccapurple;

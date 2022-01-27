@@ -42,6 +42,9 @@ p {
 footer{
     color: aliceblue;
 }
+.copyright{
+    text-align: center;
+}
 .containerFoot {
     display: grid;
     grid-template-rows: auto auto;
@@ -54,7 +57,6 @@ a {
 }
 .logo img {
     height: 75px;
-    padding: 0 0 0 17px;
 }
 .d {
     max-width: 568px;
@@ -98,3 +100,62 @@ element.style {
     text-decoration: none;
 color: rgba(1, 27, 18, 0.418);
 }
+
+/* icon trial */
+.shareicons{
+    margin-top: 7em;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    width: 65px;
+    transition-duration: 800ms;
+    color: white;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /*print*/
+  .fa-print{
+      background: rgb(115, 138, 141);
+      color: white;
+  }
+  /*email*/
+  .fa-envelope{
+      background: rgb(132, 132, 132);
+      color: white;
+  }
+  /*plus*/
+  .fa-plus{
+      background: rgb(255, 101, 80);
+      color: white;
+  }
+  .pluss{
+    padding: 10px;
+  }
+  .plus-value{
+      margin-left: 0;
+      font-size: smaller;
+  }
+/* icon trial */
